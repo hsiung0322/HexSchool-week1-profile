@@ -1,0 +1,111 @@
+body{
+    line-height: 1.5;
+    font-size: 24px;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    h1{
+        font-size: 80px;
+        line-height: 106px;
+        border-bottom: 2px solid $l-border-color;
+        margin-top: 37px;
+    }
+    img{
+        margin-top: 48px;
+        margin-bottom: 48px;
+    }
+}
+.profile, .education, .experience{
+    margin-bottom: 72px;
+}
+.skills{
+    background: $d-bg-color;
+    padding-top: 24px;
+    padding-bottom: 36px;
+    margin-bottom: 72px;
+    .skills-content{
+        padding-left: 102px;
+        padding-right: 102px;
+    }
+}
+.skills-list{
+    width: 225px;
+    border-left: 1px solid $list-border-color;
+    color: $d-text-color;
+    padding-left: 24px;
+    margin: 0 auto;
+    margin-top: 36px;
+    li{
+        margin-bottom: 16px;
+        font-weight: 300;
+    }
+}
+.experience-list{
+    border-left: 1px solid $list-border-color;
+    padding-left: 24px;
+    margin-left: 24px;
+    li{
+        margin-bottom: 24px;
+        img{
+            display: block;
+            margin-bottom: 8px;
+            margin-top: 8px;
+        }
+        p{
+            width: 642px;
+            font-size: 20px;
+        }
+    }
+}
+.footer{
+    background: $d-bg-color;
+    padding-top: 24px;
+    padding-bottom: 20px;
+}
+.contact-list{
+    margin-top: 32px;
+    text-align: center;
+    li{
+        margin-bottom: 16px;
+        color: $d-text-color;
+        font-weight: 300;
+        a{
+            text-decoration: none;
+            color: $d-text-color;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+.link a{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.light-title{
+    font-size: 32px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid $l-border-color;
+    span{
+        color: $l-subtitle-color;
+        font-size: 24px;
+        margin-left: 16px;
+    }
+}
+.dark-title{
+    text-align: center;
+    font-size: 32px;
+    color: $d-title-color;
+    border-bottom: 1px solid $d-border-color;
+    span{
+        font-size: 24px;
+        margin-left: 16px;
+    }
+}
+.m-b-24{
+    margin-bottom: 24px;
+}
